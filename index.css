@@ -1,0 +1,22 @@
+.container div{
+    font-size: 80px;
+    text-align: center;
+    vertical-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px dashed gray;
+}
+.container div:nth-child(2n+1) {
+    height: 500px;
+    background-color: white;
+}
+
+.container div:nth-child(2n+2) {
+    height: 200px;
+    background-color: cornflowerblue;
+}
+
+#1{
+    height: 550px;
+}
