@@ -2,6 +2,7 @@ const ALLOWED_DISTANCE_PX = 100;
 
 function send(data) {
     console.log( 'Elements: ' + data + ' send!');
+    alert('Elements: ' + data + ' send!')
 }
 window.onload = function () {
     let tracked;
